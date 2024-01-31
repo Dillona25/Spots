@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Dillon Arnold" />
+    <meta name="description" content="Spots project" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Spots</title>
+  </head>
+  <body class="body">
+    <menu class="menu">
+      <!--* Top menu and logo -->
+      <img src="../src/assets/Logo.svg" alt="logo" class="menu__logo" />
+      <h1 class="menu__title">SPOTS</h1>
+    </menu>
+
+    <!--* User profile -->
+    <section class="profile">
+      <img
+        class="profile__image"
+        alt="profile image"
+        src="../src/images/avatar.jpg"
+      />
+      <div class="profile__description">
+        <h1 class="profile__name">Bessie Coleman</h1>
+        <p class="profile__bio">Civil Aviator</p>
+        <button class="profile__button">
+          <img
+            class="profile__edit-button"
+            alt="edit icon"
+            src="../src/assets/Pencil.svg"
+          />
+          Edit Profile
+        </button>
+      </div>
+      <button class="profile__add-button">
+        <img
+          class="profile__add-icon"
+          alt="add icon"
+          src="../src/assets/add icon.svg"
+        />
+        New Post
+      </button>
+    </section>
+
+    <!--* Cards section -->
+    <section class="cards">
+      <ul class="cards__list">
+        <li class="card__wrapper">
+          <img src="./images/Tv.jpg" alt="Val Thorens" class="card__image" />
+          <div class="card__description">
+            <h1 class="card__title">Val Thorens</h1>
+            <button class="card__like-button"></button>
+          </div>
+        </li>
+
+        <li class="card__wrapper">
+          <img
+            src="./images/Resturant.jpg"
+            alt="Resturant terrace"
+            class="card__image"
+          />
+          <div class="card__description">
+            <h1 class="card__title">Resturant terrace</h1>
+            <button class="card__like-button"></button>
+          </div>
+        </li>
+
+        <li class="card__wrapper">
+          <img
+            src="./images/Resturant scene.jpg"
+            alt="An outdoor cafe"
+            class="card__image"
+          />
+          <div class="card__description">
+            <h1 class="card__title">An outdoor cafe</h1>
+            <button class="card__like-button"></button>
+          </div>
+        </li>
+
+        <li class="card__wrapper">
+          <img
+            src="./images/Bridge.jpg"
+            alt="A long bridge"
+            class="card__image"
+          />
+          <div class="card__description">
+            <h1 class="card__title">A very long bridge over the forest</h1>
+            <button class="card__like-button"></button>
+          </div>
+        </li>
+
+        <li class="card__wrapper">
+          <img
+            src="./images/Isle.jpg"
+            alt="A tunnel with morning light"
+            class="card__image"
+          />
+          <div class="card__description">
+            <h1 class="card__title">Tunnel with morning light</h1>
+            <button class="card__like-button"></button>
+          </div>
+        </li>
+
+        <li class="card__wrapper">
+          <img
+            src="./images/Cabin.jpg"
+            alt="A mountain house"
+            class="card__image"
+          />
+          <div class="card__description">
+            <h1 class="card__title">Mountain house</h1>
+            <button class="card__like-button"></button>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!--* Footer -->
+    <section class="footer">
+      <p class="footer__text">2023 &copy Spots</p>
+    </section>
+  </body>
+</html>

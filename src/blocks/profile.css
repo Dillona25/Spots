@@ -1,0 +1,91 @@
+.profile {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.profile__image {
+  height: 190px;
+  width: 190px;
+}
+
+.profile__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile__name {
+  max-width: 420px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  margin: 0;
+  max-height: 96px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile__bio {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 70%;
+  max-height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile__button {
+  display: flex;
+  gap: 8px;
+  background-color: transparent;
+  border: none;
+  align-self: start;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: auto;
+  font-family: "Poppins", sans-serif;
+  opacity: 70%;
+}
+
+.profile__button:hover {
+  opacity: 100%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.profile__edit-button {
+  align-self: center;
+  width: 15px;
+  height: 15px;
+}
+
+.profile__add-button {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  gap: 8px;
+  width: 157px;
+  height: 52px;
+  background-color: #000;
+  color: #fff;
+  align-self: flex-end;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 32px;
+}
+
+.profile__add-button:hover {
+  opacity: 80%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.profile__add-icon {
+  width: 12px;
+  height: 12px;
+  align-self: end;
+}

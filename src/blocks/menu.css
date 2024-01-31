@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  background-color: #fff;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.menu__logo {
+  width: 10px;
+  height: 10px;
+  align-self: center;
+}
+
+.menu__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 20%;
+}
