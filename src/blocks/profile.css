@@ -2,6 +2,8 @@
   display: flex;
   max-width: 1280px;
   margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #000;
 }
 
 .profile__image {
@@ -90,6 +92,12 @@
   width: 12px;
   height: 12px;
   align-self: end;
+}
+
+@media screen and (max-width: 1292px) {
+  .profile {
+    margin: 0 20px;
+  }
 }
 
 @media screen and (max-width: 620px) {
