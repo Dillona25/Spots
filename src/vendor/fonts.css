@@ -8,9 +8,18 @@
 @font-face {
   font-family: "Poppins";
   font-style: normal;
+  /*NEEDS CORRECTING:
+  font-weight value for Medium typeface should be 500
+  */
   font-weight: 600;
   src: url("./fonts/Poppins-Medium.ttf") format("truetype");
 }
+
+/*NEEDS CORRECTING:
+
+typeface 900 isn't needed for the project, please remove its file and font-face
+
+*/
 
 @font-face {
   font-family: "Poppins";

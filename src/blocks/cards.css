@@ -2,7 +2,8 @@
   max-width: 1280px;
   margin: 20px auto;
   padding-bottom: 40px;
-  border-bottom: 1px solid #000;
+  border-bottom: solid 1px;
+  border-color: rgba(21, 21, 21, 0.4);
 }
 
 .cards__list {
@@ -16,46 +17,6 @@
   padding: 0;
 }
 
-.card__image {
-  width: 413px;
-  height: 413px;
-  border-radius: 8px;
-}
-
-.card__description {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card__title {
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 500;
-  margin: 0;
-  margin-top: 12px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 350px;
-}
-
-.card__like-button {
-  background-image: url("../assets/like.svg");
-  height: 20px;
-  width: 23px;
-  border: none;
-  background-color: transparent;
-  align-self: end;
-  opacity: 40%;
-}
-
-.card__like-button:hover {
-  opacity: 100%;
-  cursor: pointer;
-  transition: 0.5s ease-in-out;
-}
-
 @media screen and (max-width: 620px) {
   .cards__list {
     justify-content: center;
@@ -66,24 +27,5 @@
 @media screen and (max-width: 460px) {
   .cards {
     padding-bottom: 20px;
-  }
-
-  .card__image {
-    width: 288px;
-    height: 288px;
-  }
-
-  .card__description {
-    max-width: 288px;
-  }
-
-  .card__title {
-    max-width: 250px;
-    font-size: 16px;
-    line-height: 16px;
-  }
-
-  .card__like-button {
-    scale: 0.9;
   }
 }
