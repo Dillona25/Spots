@@ -10,6 +10,7 @@
 .profile__image {
   height: 190px;
   width: 190px;
+  border-radius: 10px;
 }
 
 .profile__description {
@@ -35,6 +36,7 @@
 
 .profile__bio {
   margin-top: 12px;
+  max-width: 420px;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 16px;
@@ -100,16 +102,11 @@
   align-self: end;
 }
 
-@media screen and (max-width: 1292px) {
-  .profile {
-    margin: 0 20px;
-  }
-}
-
 @media screen and (max-width: 620px) {
   .profile {
     flex-direction: column;
     align-items: center;
+    max-width: 288px;
   }
 
   .profile__image {
@@ -118,6 +115,11 @@
 
   .profile__description {
     margin: 0 auto;
+    max-width: 288px;
+  }
+
+  .profile__name {
+    text-align: center;
   }
 
   .profile__bio {
