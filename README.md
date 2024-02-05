@@ -10,3 +10,7 @@ Thw purpose of this project was to test the design and provide feedback for Trip
 <div display="flex" content="space-evenly">
 <img align="center" height="500" alt="Image of project" src="./src/images/Spots.png">
 </div>
+
+# Live site
+
+https://dillona25.github.io/Spots/
